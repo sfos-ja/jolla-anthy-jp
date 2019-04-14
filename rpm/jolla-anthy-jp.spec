@@ -5,6 +5,7 @@ Summary: Japanese layout and input method for Sailfish OS
 License: LGPLv2
 Source: %{name}-%{version}.tar.gz
 URL: https://github.com/BeholdMyGlory/jolla-anthy-jp
+BuildArch: noarch
 Requires:   libanthy-qml-plugin
 Requires:   jolla-keyboard
 
