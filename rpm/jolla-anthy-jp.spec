@@ -1,13 +1,13 @@
 Name: jolla-anthy-jp
-Version: 0.04
+Version: 1.0.0
 Release: 1%{?dist}
 Summary: Japanese layout and input method for Sailfish OS
 License: LGPLv2
 Source: %{name}-%{version}.tar.gz
 URL: https://github.com/BeholdMyGlory/jolla-anthy-jp
+BuildArch: noarch
 Requires:   libanthy-qml-plugin
 Requires:   jolla-keyboard
-Requires:   jolla-xt9
 
 %description
 Allows you to type in Japanese on Sailfish OS.
